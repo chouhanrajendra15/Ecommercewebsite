@@ -24,6 +24,7 @@ const emptyCart = () => {
         <div className="container py-4">
           <div className="row">
             <h3 height="900px">Your Cart is Empty</h3>
+            <h3 height="900px"><Link to="/products">Go to Products </Link></h3>
           </div>
         </div>
       </div>
@@ -73,7 +74,8 @@ return (
     {state.length === 0 && emptyCart()}
     {state.length !== 0 && state.map(cardItems)}
     {state.length !== 0 && buttons()}
-  </div>
+
+ </div>
 );
 }
 

@@ -59,18 +59,18 @@ const Products = () => {
     const ShowProducts = () => {
         return (
             <>
-            <div className="buttons d-flex justify-content-center mb-5 pb-5">
-                <button className='btn btn-outline-dark me-2' onClick={()=> setFilter(data)}>All</button>
-                <button className='btn btn-outline-dark me-2' onClick={()=> filterProduct("men's clothing")}>Men's clothes</button>
-                <button className='btn btn-outline-dark me-2'  onClick={()=> filterProduct("women's clothing")}>Women's clothes</button>
-                <button className='btn btn-outline-dark me-2'  onClick={()=> filterProduct("jewelery")}>Jewelery</button>
-                <button className='btn btn-outline-dark me-2'  onClick={()=> filterProduct("electronics")}>Electronic</button>
+            <div className="buttons1 ">
+                <button className='btn btn-outline-dark me-2 mb-1 fw-bold' onClick={()=> setFilter(data)}>All</button>
+                <button className='btn btn-outline-dark me-2 mb-1 fw-bold' onClick={()=> filterProduct("men's clothing")}>Men's clothes</button>
+                <button className='btn btn-outline-dark me-2 mb-1 fw-bold'  onClick={()=> filterProduct("women's clothing")}>Women's clothes</button>
+                <button className='btn btn-outline-dark me-2 mb-1 fw-bold'  onClick={()=> filterProduct("jewelery")}>Jewelery</button>
+                <button className='btn btn-outline-dark me-2 mb-1 fw-bold'  onClick={()=> filterProduct("electronics")}>Electronic</button>
             </div>
                {filter.map((product) => {
                 return (
                     <>
                         <div className="col-md-3 mb-4">
-                            <div className="card h-100 text-center p-4" key={product.id} >
+                            <div className="card1 h-100 text-center p-4" key={product.id} >
                                 <img src={product.image} className="card-img-top" alt={product.title} height="250px" />
                                 <div className="card-body">
                                     <h5 className="card-title mb-0">{product.title.substring(0,12)}...</h5>

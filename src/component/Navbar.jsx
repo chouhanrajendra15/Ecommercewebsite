@@ -6,9 +6,9 @@ const Navbar = () => {
     const state = useSelector((state)=> state.handleCart);
     return (
         <div>
-            <nav className="navbar  navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
-                <div className="container">
-                    <Link className="navbar-brand fw-bold fs-4" to="/">JK Collection</Link>
+            <nav className="navbar  navbar-expand-lg navbar-light bg-white py-3 ">
+                <div className="container ">
+                    <Link className="navbar-brand fw-bold fs-4" to="/">ShareMart <i class="fa fa-shopping-cart" aria-hidden="true"></i></Link>
                     <button
             className="navbar-toggler"
             type="button"
