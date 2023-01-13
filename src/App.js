@@ -14,7 +14,6 @@ import Ragister from './component/Ragister';
 function App() {
   return (
     <>
-    <div className='app'>
      <Navbar />
           <Routes>
             <Route exact path="/" element={<Home />}/>
@@ -27,7 +26,6 @@ function App() {
             <Route exact path="/Contact" element={<Contact />} />
             <Route exact path="/About" element={<About />} />
           </Routes>
-          </div>
     </>
      
   );

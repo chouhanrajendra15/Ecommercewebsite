@@ -8,7 +8,7 @@ const Navbar = () => {
         <div>
             <nav className="navbar  navbar-expand-lg navbar-light bg-white py-3 ">
                 <div className="container ">
-                    <Link className="navbar-brand fw-bold fs-4" to="/">ShareMart <i class="fa fa-shopping-cart" aria-hidden="true"></i></Link>
+                    <Link className="navbar-brand fw-bold fs-4" to="/">ShareMart <i className="fa fa-shopping-cart" aria-hidden="true"></i></Link>
                     <button
             className="navbar-toggler"
             type="button"

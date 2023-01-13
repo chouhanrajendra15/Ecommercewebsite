@@ -15,7 +15,7 @@ const Login = () => {
                     <div  className='d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5'>
                        <form style={{width:"23rem"}} >
 
-                          <h3 class="fw-normal mb-3 pb-3" style={{"letter-spacing":"1px;"}} >Log in </h3>
+                          <h3 className="fw-normal mb-3 pb-3" style={{"letter-spacing":"1px;"}} >Log in </h3>
 
                           <div className="form-outline mb-4">
                             <input type="email" id="form2Example18" className='form-control form-control-lg'/>
@@ -38,7 +38,7 @@ const Login = () => {
                 </div>
                 <div className="col-md-8 col-lg-7 col-xl-6">
         <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
-          class="img-fluid" alt="Phone" />
+          className="img-fluid" alt="Phone" />
       </div>
 
             </div>

@@ -32,10 +32,10 @@ code {
   }
 }
 @media screen and (max-width: 450px){
-.card-img{
+/* .card-img{
   width:100%;
   
-}
+} */
 .buttons1{
   display: flex;
   flex-direction: column;  
